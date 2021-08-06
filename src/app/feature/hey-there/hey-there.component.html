@@ -1,0 +1,11 @@
+<p>{{title}}</p>    <!-- One way binding -->
+<table>
+    <tr>    <!-- Two way binding -->
+        <td>Username: </td>
+        <td><input [(ngModel)]="username" type="text"></td>
+    </tr>
+    <tr>
+        <td>Current Username:</td>
+        <td>{{username}}</td>
+    </tr>
+</table>
